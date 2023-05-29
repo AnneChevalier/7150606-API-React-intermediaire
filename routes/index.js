@@ -44,12 +44,4 @@ router.get('/', function (req, res, next) {
 	res.render('index', { title: 'API - React intermédiaire' })
 })
 
-router.get('/api-shiny', function (req, res, next) {
-	res.render('index', { title: 'API - React intermédiaire' })
-})
-
-router.get('/home', function (req, res, next) {
-	res.render('index', { title: 'API - React intermédiaire' })
-})
-
 module.exports = router
