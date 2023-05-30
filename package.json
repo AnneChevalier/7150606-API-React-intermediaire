@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./index.js",
-    "devstart": "nodemon ./index.js",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
+    "devstart": "nodemon ./index.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
