@@ -3,7 +3,7 @@ const freelances = [
 		id: '1',
 		name: 'Julien Brun',
 		job: 'Développeur mobile',
-		picture: 'http://localhost:8000/images/4.jpeg',
+		picture: './public/images/4.jpeg',
 		skills: ['React Native'],
 		location: 'Lyon',
 		available: true,
